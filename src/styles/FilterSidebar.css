@@ -1,0 +1,36 @@
+/* FilterSidebar.css */
+.filters {
+  flex: 0 0 220px; /* fixed width */
+  border-right: 1px solid #ccc;
+  padding: 1rem;
+  position: sticky;
+  top: 1rem;
+  max-height: 90vh;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+.filter-group {
+  margin-bottom: 2rem;
+}
+
+.filter-group h3 {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+  font-size: 0.95rem;
+}
+
+.filter-group input[type="radio"] {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}

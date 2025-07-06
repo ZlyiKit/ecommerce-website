@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "Elegant Red Maxi Dress",
+    "type": "Maxi",
+    "size": "M",
+    "color": "Red",
+    "material": "Silk",
+    "price": 120,
+    "image": "https://via.placeholder.com/300x400?text=Red+Maxi+Silk"
+  },
+  {
+    "id": 2,
+    "name": "Casual Blue Mini Dress",
+    "type": "Mini",
+    "size": "S",
+    "color": "Blue",
+    "material": "Cotton",
+    "price": 60,
+    "image": "https://via.placeholder.com/300x400?text=Blue+Mini+Cotton"
+  },
+  {
+    "id": 3,
+    "name": "Classic Black Midi Dress",
+    "type": "Midi",
+    "size": "L",
+    "color": "Black",
+    "material": "Polyester",
+    "price": 90,
+    "image": "https://via.placeholder.com/300x400?text=Black+Midi+Polyester"
+  },
+  {
+    "id": 4,
+    "name": "Summer Yellow Maxi Dress",
+    "type": "Maxi",
+    "size": "S",
+    "color": "Yellow",
+    "material": "Cotton",
+    "price": 110,
+    "image": "https://via.placeholder.com/300x400?text=Yellow+Maxi+Cotton"
+  },
+  {
+    "id": 5,
+    "name": "Chic Pink Mini Dress",
+    "type": "Mini",
+    "size": "M",
+    "color": "Pink",
+    "material": "Silk",
+    "price": 130,
+    "image": "https://via.placeholder.com/300x400?text=Pink+Mini+Silk"
+  },
+  {
+    "id": 6,
+    "name": "Elegant Green Midi Dress",
+    "type": "Midi",
+    "size": "M",
+    "color": "Green",
+    "material": "Polyester",
+    "price": 95,
+    "image": "https://via.placeholder.com/300x400?text=Green+Midi+Polyester"
+  },
+  {
+    "id": 7,
+    "name": "Classic Navy Maxi Dress",
+    "type": "Maxi",
+    "size": "L",
+    "color": "Blue",
+    "material": "Cotton",
+    "price": 140,
+    "image": "https://via.placeholder.com/300x400?text=Navy+Maxi+Cotton"
+  },
+  {
+    "id": 8,
+    "name": "Trendy Red Mini Dress",
+    "type": "Mini",
+    "size": "S",
+    "color": "Red",
+    "material": "Polyester",
+    "price": 75,
+    "image": "https://via.placeholder.com/300x400?text=Red+Mini+Polyester"
+  },
+  {
+    "id": 9,
+    "name": "Elegant White Midi Dress",
+    "type": "Midi",
+    "size": "M",
+    "color": "White",
+    "material": "Silk",
+    "price": 120,
+    "image": "https://via.placeholder.com/300x400?text=White+Midi+Silk"
+  },
+  {
+    "id": 10,
+    "name": "Casual Black Maxi Dress",
+    "type": "Maxi",
+    "size": "S",
+    "color": "Black",
+    "material": "Cotton",
+    "price": 115,
+    "image": "https://via.placeholder.com/300x400?text=Black+Maxi+Cotton"
+  },
+  {
+    "id": 11,
+    "name": "Summer Blue Mini Dress",
+    "type": "Mini",
+    "size": "M",
+    "color": "Blue",
+    "material": "Silk",
+    "price": 80,
+    "image": "https://via.placeholder.com/300x400?text=Blue+Mini+Silk"
+  },
+  {
+    "id": 12,
+    "name": "Classic Green Midi Dress",
+    "type": "Midi",
+    "size": "L",
+    "color": "Green",
+    "material": "Cotton",
+    "price": 100,
+    "image": "https://via.placeholder.com/300x400?text=Green+Midi+Cotton"
+  },
+  {
+    "id": 13,
+    "name": "Elegant Yellow Maxi Dress",
+    "type": "Maxi",
+    "size": "M",
+    "color": "Yellow",
+    "material": "Silk",
+    "price": 130,
+    "image": "https://via.placeholder.com/300x400?text=Yellow+Maxi+Silk"
+  },
+  {
+    "id": 14,
+    "name": "Trendy Pink Mini Dress",
+    "type": "Mini",
+    "size": "L",
+    "color": "Pink",
+    "material": "Polyester",
+    "price": 70,
+    "image": "https://via.placeholder.com/300x400?text=Pink+Mini+Polyester"
+  },
+  {
+    "id": 15,
+    "name": "Classic Navy Midi Dress",
+    "type": "Midi",
+    "size": "S",
+    "color": "Blue",
+    "material": "Cotton",
+    "price": 105,
+    "image": "https://via.placeholder.com/300x400?text=Navy+Midi+Cotton"
+  },
+  {
+    "id": 16,
+    "name": "Elegant Red Maxi Dress",
+    "type": "Maxi",
+    "size": "L",
+    "color": "Red",
+    "material": "Polyester",
+    "price": 140,
+    "image": "https://via.placeholder.com/300x400?text=Red+Maxi+Polyester"
+  },
+  {
+    "id": 17,
+    "name": "Casual White Mini Dress",
+    "type": "Mini",
+    "size": "M",
+    "color": "White",
+    "material": "Cotton",
+    "price": 65,
+    "image": "https://via.placeholder.com/300x400?text=White+Mini+Cotton"
+  },
+  {
+    "id": 18,
+    "name": "Classic Black Midi Dress",
+    "type": "Midi",
+    "size": "S",
+    "color": "Black",
+    "material": "Silk",
+    "price": 115,
+    "image": "https://via.placeholder.com/300x400?text=Black+Midi+Silk"
+  },
+  {
+    "id": 19,
+    "name": "Summer Green Maxi Dress",
+    "type": "Maxi",
+    "size": "M",
+    "color": "Green",
+    "material": "Polyester",
+    "price": 125,
+    "image": "https://via.placeholder.com/300x400?text=Green+Maxi+Polyester"
+  },
+  {
+    "id": 20,
+    "name": "Trendy Blue Mini Dress",
+    "type": "Mini",
+    "size": "L",
+    "color": "Blue",
+    "material": "Silk",
+    "price": 90,
+    "image": "https://via.placeholder.com/300x400?text=Blue+Mini+Silk"
+  },
+  {
+    "id": 21,
+    "name": "Classic Yellow Midi Dress",
+    "type": "Midi",
+    "size": "M",
+    "color": "Yellow",
+    "material": "Cotton",
+    "price": 110,
+    "image": "https://via.placeholder.com/300x400?text=Yellow+Midi+Cotton"
+  },
+  {
+    "id": 22,
+    "name": "Elegant Pink Maxi Dress",
+    "type": "Maxi",
+    "size": "S",
+    "color": "Pink",
+    "material": "Silk",
+    "price": 135,
+    "image": "https://via.placeholder.com/300x400?text=Pink+Maxi+Silk"
+  },
+  {
+    "id": 23,
+    "name": "Casual Navy Mini Dress",
+    "type": "Mini",
+    "size": "M",
+    "color": "Blue",
+    "material": "Polyester",
+    "price": 75,
+    "image": "https://via.placeholder.com/300x400?text=Navy+Mini+Polyester"
+  },
+  {
+    "id": 24,
+    "name": "Classic Red Midi Dress",
+    "type": "Midi",
+    "size": "L",
+    "color": "Red",
+    "material": "Cotton",
+    "price": 95,
+    "image": "https://via.placeholder.com/300x400?text=Red+Midi+Cotton"
+  },
+  {
+    "id": 25,
+    "name": "Elegant White Maxi Dress",
+    "type": "Maxi",
+    "size": "M",
+    "color": "White",
+    "material": "Polyester",
+    "price": 120,
+    "image": "https://via.placeholder.com/300x400?text=White+Maxi+Polyester"
+  },
+  {
+    "id": 26,
+    "name": "Trendy Green Mini Dress",
+    "type": "Mini",
+    "size": "S",
+    "color": "Green",
+    "material": "Silk",
+    "price": 85,
+    "image": "https://via.placeholder.com/300x400?text=Green+Mini+Silk"
+  },
+  {
+    "id": 27,
+    "name": "Classic Blue Midi Dress",
+    "type": "Midi",
+    "size": "M",
+    "color": "Blue",
+    "material": "Cotton",
+    "price": 100,
+    "image": "https://via.placeholder.com/300x400?text=Blue+Midi+Cotton"
+  },
+  {
+    "id": 28,
+    "name": "Elegant Black Maxi Dress",
+    "type": "Maxi",
+    "size": "L",
+    "color": "Black",
+    "material": "Silk",
+    "price": 140,
+    "image": "https://via.placeholder.com/300x400?text=Black+Maxi+Silk"
+  },
+  {
+    "id": 29,
+    "name": "Casual Yellow Mini Dress",
+    "type": "Mini",
+    "size": "M",
+    "color": "Yellow",
+    "material": "Polyester",
+    "price": 70,
+    "image": "https://via.placeholder.com/300x400?text=Yellow+Mini+Polyester"
+  },
+  {
+    "id": 30,
+    "name": "Classic Pink Midi Dress",
+    "type": "Midi",
+    "size": "S",
+    "color": "Pink",
+    "material": "Cotton",
+    "price": 95,
+    "image": "https://via.placeholder.com/300x400?text=Pink+Midi+Cotton"
+  }
+]
