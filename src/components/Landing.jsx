@@ -47,7 +47,8 @@ export default function Landing() {
           “Elegance is the only beauty that never fades.”
           <span>— Audrey Hepburn</span>
         </blockquote>
-         <button className="shop-now-button" onClick={() => window.location.href = '/shop'}>
+         <button className="shop-now-button" onClick={() => window.location.href = process.env.PUBLIC_URL + '/shop'}
+>
     Shop Now
   </button>
       </div>

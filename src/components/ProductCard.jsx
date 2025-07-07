@@ -3,6 +3,11 @@ import '../styles/ProductCard.css';
 export default function ProductCard({ product, onAddToCart, promo = false }) {
   return (
     <div className={`product-card ${promo ? 'promo-card' : ''}`}>
+      {product.sale && (
+        <div className="sale-badge">
+          {product.sale} OFF
+        </div>
+      )}
       <img src={product.image} alt={product.name} />
       <h3>{product.name}</h3>
       <p>Size: {product.size}</p>

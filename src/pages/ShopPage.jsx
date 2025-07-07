@@ -3,10 +3,11 @@ import productsData from "../data/products.json";
 import ProductCard from "../components/ProductCard";
 import FilterSidebar from "../components/FilterSidebar";
 import "../styles/ShopPage.css";
-import { useCart } from "../components/CartContext"; // import context hook
+import { useCart } from "../components/CartContext";
+import ProgressBar from "../components/ProgressBar";
 
 export default function ShopPage() {
-  const { addToCart } = useCart();  // get addToCart from context
+  const { addToCart } = useCart();
 
   const [filters, setFilters] = useState({
     type: "",
@@ -37,26 +38,27 @@ export default function ShopPage() {
     setFilters((prev) => ({ ...prev, [key]: value }));
   };
 
-  // Updated handler to use addToCart from context and pass full product
   const handleAddToCart = (product) => {
     addToCart(product);
     alert("Product added to cart!");
   };
 
   return (
-    <main className="shop-container">
+  <main className="shop-container">
+    {/* Progress bar at top, full width */}
+    <ProgressBar currentStep={1} />
+
+    {/* Sidebar and product list side by side */}
+    <div className="shop-content">
       <FilterSidebar filters={filters} onChange={handleFilterChange} />
       <section className="products">
         {filteredProducts.length > 0 && (
           <>
-            {/* Promo Card */}
             <ProductCard
               product={filteredProducts[0]}
               onAddToCart={handleAddToCart}
               promo
             />
-
-            {/* Rest of the cards */}
             {filteredProducts.slice(1).map((product) => (
               <ProductCard
                 key={product.id}
@@ -67,6 +69,7 @@ export default function ShopPage() {
           </>
         )}
       </section>
-    </main>
-  );
+    </div>
+  </main>
+);
 }

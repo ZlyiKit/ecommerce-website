@@ -1,9 +1,17 @@
 .shop-container {
+  padding: 20px;
+}
+
+/* The bar goes full width at top */
+.shop-container > .progress-bar {
+  margin-bottom: 20px;
+}
+
+/* Keep sidebar and products side-by-side */
+.shop-content {
   display: flex;
-  gap: 1rem;
-  padding: 1rem;
-  min-height: 90vh; /* full height */
-  background: #f9f9f9;
+  gap: 20px;
+  align-items: flex-start;
 }
 
 .products {
