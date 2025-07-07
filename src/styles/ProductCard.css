@@ -1,6 +1,15 @@
 .product-card {
   position: relative;
-  /* existing styles */
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
 }
 
 .sale-badge {
@@ -19,10 +28,11 @@
 
 .product-card img {
   width: 100%;
-  height: 250px;
+  height: 250% !important;
   object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
 }
-
 .product-card button {
   padding: 0.5rem 1rem;
   background: black;

@@ -17,7 +17,7 @@ export default function CartItem({ item }) {
 
   return (
     <div className="cart-item">
-  <img src={item.image} alt={item.name} />
+  <img src={process.env.PUBLIC_URL + item.image} alt={item.name} />
 
   <div className="cart-item-content">
     <h4>{item.name}</h4>

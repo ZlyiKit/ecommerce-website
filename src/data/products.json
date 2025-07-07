@@ -7,7 +7,7 @@
     "color": "Red",
     "material": "Silk",
     "price": 120,
-    "image": "https://via.placeholder.com/300x400?text=Red+Maxi+Silk",
+    "image": "/img/dresses/1.jpg",
     "newCollection": true
   },
   {
@@ -18,7 +18,7 @@
     "color": "Blue",
     "material": "Cotton",
     "price": 60,
-    "image": "https://via.placeholder.com/300x400?text=Blue+Mini+Cotton",
+    "image": "/img/dresses/2.jpg",
     "sale": "30%"
   },
   {
@@ -29,7 +29,7 @@
     "color": "Black",
     "material": "Polyester",
     "price": 90,
-    "image": "https://via.placeholder.com/300x400?text=Black+Midi+Polyester",
+    "image": "/img/dresses/3.jpg",
     "sale": "10%"
   },
   {
@@ -40,7 +40,7 @@
     "color": "Yellow",
     "material": "Cotton",
     "price": 110,
-    "image": "https://via.placeholder.com/300x400?text=Yellow+Maxi+Cotton",
+    "image": "/img/dresses/4.jpg",
     "sale": "15%"
   },
   {
@@ -52,7 +52,7 @@
     "material": "Silk",
     "price": 130,
     "newCollection": true,
-    "image": "https://via.placeholder.com/300x400?text=Pink+Mini+Silk"
+    "image": "/img/dresses/5.jpg"
   },
   {
     "id": 6,
@@ -62,7 +62,7 @@
     "color": "Green",
     "material": "Polyester",
     "price": 95,
-    "image": "https://via.placeholder.com/300x400?text=Green+Midi+Polyester"
+    "image": "/img/dresses/6.jpg"
   },
   {
     "id": 7,
@@ -73,7 +73,7 @@
     "material": "Cotton",
     "price": 140,
     "newCollection": true,
-    "image": "https://via.placeholder.com/300x400?text=Navy+Maxi+Cotton"
+    "image": "/img/dresses/7.jpg"
   },
   {
     "id": 8,
@@ -84,7 +84,7 @@
     "material": "Polyester",
     "price": 75,
     "newCollection": true,
-    "image": "https://via.placeholder.com/300x400?text=Red+Mini+Polyester"
+    "image": "/img/dresses/8.jpg"
   },
   {
     "id": 9,
@@ -94,7 +94,7 @@
     "color": "White",
     "material": "Silk",
     "price": 120,
-    "image": "https://via.placeholder.com/300x400?text=White+Midi+Silk"
+    "image": "/img/dresses/9.jpg"
   },
   {
     "id": 10,
@@ -104,7 +104,7 @@
     "color": "Black",
     "material": "Cotton",
     "price": 115,
-    "image": "https://via.placeholder.com/300x400?text=Black+Maxi+Cotton"
+    "image": "/img/dresses/10.jpg"
   },
   {
     "id": 11,
@@ -114,7 +114,7 @@
     "color": "Blue",
     "material": "Silk",
     "price": 80,
-    "image": "https://via.placeholder.com/300x400?text=Blue+Mini+Silk"
+    "image": "/img/dresses/11.jpg"
   },
   {
     "id": 12,
@@ -124,7 +124,7 @@
     "color": "Green",
     "material": "Cotton",
     "price": 100,
-    "image": "https://via.placeholder.com/300x400?text=Green+Midi+Cotton"
+    "image": "/img/dresses/12.jpg"
   },
   {
     "id": 13,
@@ -134,7 +134,7 @@
     "color": "Yellow",
     "material": "Silk",
     "price": 130,
-    "image": "https://via.placeholder.com/300x400?text=Yellow+Maxi+Silk"
+    "image": "/img/dresses/13.jpg"
   },
   {
     "id": 14,
@@ -144,7 +144,7 @@
     "color": "Pink",
     "material": "Polyester",
     "price": 70,
-    "image": "https://via.placeholder.com/300x400?text=Pink+Mini+Polyester"
+    "image": "/img/dresses/14.jpg"
   },
   {
     "id": 15,
@@ -154,7 +154,7 @@
     "color": "Blue",
     "material": "Cotton",
     "price": 105,
-    "image": "https://via.placeholder.com/300x400?text=Navy+Midi+Cotton"
+    "image": "/img/dresses/15.jpg"
   },
   {
     "id": 16,
@@ -165,7 +165,7 @@
     "material": "Polyester",
     "price": 140,
     "newCollection": true,
-    "image": "https://via.placeholder.com/300x400?text=Red+Maxi+Polyester"
+    "image": "/img/dresses/16.jpg"
   },
   {
     "id": 17,
@@ -175,7 +175,7 @@
     "color": "White",
     "material": "Cotton",
     "price": 65,
-    "image": "https://via.placeholder.com/300x400?text=White+Mini+Cotton"
+    "image": "/img/dresses/17.jpg"
   },
   {
     "id": 18,
@@ -185,7 +185,7 @@
     "color": "Black",
     "material": "Silk",
     "price": 115,
-    "image": "https://via.placeholder.com/300x400?text=Black+Midi+Silk"
+    "image": "/img/dresses/18.jpg"
   },
   {
     "id": 19,
@@ -195,7 +195,7 @@
     "color": "Green",
     "material": "Polyester",
     "price": 125,
-    "image": "https://via.placeholder.com/300x400?text=Green+Maxi+Polyester"
+    "image": "/img/dresses/19.jpg"
   },
   {
     "id": 20,
@@ -205,7 +205,7 @@
     "color": "Blue",
     "material": "Silk",
     "price": 90,
-    "image": "https://via.placeholder.com/300x400?text=Blue+Mini+Silk"
+    "image": "/img/dresses/20.jpg"
   },
   {
     "id": 21,
@@ -215,7 +215,7 @@
     "color": "Yellow",
     "material": "Cotton",
     "price": 110,
-    "image": "https://via.placeholder.com/300x400?text=Yellow+Midi+Cotton"
+    "image": "/img/dresses/21.jpg"
   },
   {
     "id": 22,
@@ -225,7 +225,7 @@
     "color": "Pink",
     "material": "Silk",
     "price": 135,
-    "image": "https://via.placeholder.com/300x400?text=Pink+Maxi+Silk"
+    "image": "/img/dresses/22.jpg"
   },
   {
     "id": 23,
@@ -235,7 +235,7 @@
     "color": "Blue",
     "material": "Polyester",
     "price": 75,
-    "image": "https://via.placeholder.com/300x400?text=Navy+Mini+Polyester"
+    "image": "/img/dresses/23.jpg"
   },
   {
     "id": 24,
@@ -245,7 +245,7 @@
     "color": "Red",
     "material": "Cotton",
     "price": 95,
-    "image": "https://via.placeholder.com/300x400?text=Red+Midi+Cotton"
+    "image": "/img/dresses/24.jpg"
   },
   {
     "id": 25,
@@ -255,7 +255,7 @@
     "color": "White",
     "material": "Polyester",
     "price": 120,
-    "image": "https://via.placeholder.com/300x400?text=White+Maxi+Polyester"
+    "image": "/img/dresses/25.jpg"
   },
   {
     "id": 26,
@@ -265,7 +265,7 @@
     "color": "Green",
     "material": "Silk",
     "price": 85,
-    "image": "https://via.placeholder.com/300x400?text=Green+Mini+Silk"
+    "image": "/img/dresses/26.jpg"
   },
   {
     "id": 27,
@@ -275,7 +275,7 @@
     "color": "Blue",
     "material": "Cotton",
     "price": 100,
-    "image": "https://via.placeholder.com/300x400?text=Blue+Midi+Cotton"
+    "image": "/img/dresses/27.jpg"
   },
   {
     "id": 28,
@@ -285,7 +285,7 @@
     "color": "Black",
     "material": "Silk",
     "price": 140,
-    "image": "https://via.placeholder.com/300x400?text=Black+Maxi+Silk"
+    "image": "/img/dresses/28.jpg"
   },
   {
     "id": 29,
@@ -295,7 +295,7 @@
     "color": "Yellow",
     "material": "Polyester",
     "price": 70,
-    "image": "https://via.placeholder.com/300x400?text=Yellow+Mini+Polyester"
+    "image": "/img/dresses/29.jpg"
   },
   {
     "id": 30,
@@ -305,6 +305,6 @@
     "color": "Pink",
     "material": "Cotton",
     "price": 95,
-    "image": "https://via.placeholder.com/300x400?text=Pink+Midi+Cotton"
+    "image": "/img/dresses/30.jpg"
   }
 ]
