@@ -2,12 +2,19 @@ import '../styles/ProductCard.css';
 
 export default function ProductCard({ product, onAddToCart, promo = false }) {
   return (
-    <div className={`product-card ${promo ? 'promo-card' : ''}`}>
+    <div className={`product-card ${promo ? 'promo-card' : ''}`} style={{ position: 'relative' }}>
       {product.sale && (
         <div className="sale-badge">
           {product.sale} OFF
         </div>
       )}
+
+      {product.newCollection && (
+        <div className="new-collection-tag">
+          New Collection
+        </div>
+      )}
+
       <img src={product.image} alt={product.name} />
       <h3>{product.name}</h3>
       <p>Size: {product.size}</p>

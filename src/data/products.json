@@ -8,7 +8,7 @@
     "material": "Silk",
     "price": 120,
     "image": "https://via.placeholder.com/300x400?text=Red+Maxi+Silk",
-    "sale": "30%"
+    "newCollection": true
   },
   {
     "id": 2,
@@ -18,7 +18,8 @@
     "color": "Blue",
     "material": "Cotton",
     "price": 60,
-    "image": "https://via.placeholder.com/300x400?text=Blue+Mini+Cotton"
+    "image": "https://via.placeholder.com/300x400?text=Blue+Mini+Cotton",
+    "sale": "30%"
   },
   {
     "id": 3,
@@ -28,7 +29,8 @@
     "color": "Black",
     "material": "Polyester",
     "price": 90,
-    "image": "https://via.placeholder.com/300x400?text=Black+Midi+Polyester"
+    "image": "https://via.placeholder.com/300x400?text=Black+Midi+Polyester",
+    "sale": "10%"
   },
   {
     "id": 4,
@@ -38,7 +40,8 @@
     "color": "Yellow",
     "material": "Cotton",
     "price": 110,
-    "image": "https://via.placeholder.com/300x400?text=Yellow+Maxi+Cotton"
+    "image": "https://via.placeholder.com/300x400?text=Yellow+Maxi+Cotton",
+    "sale": "15%"
   },
   {
     "id": 5,
@@ -48,6 +51,7 @@
     "color": "Pink",
     "material": "Silk",
     "price": 130,
+    "newCollection": true,
     "image": "https://via.placeholder.com/300x400?text=Pink+Mini+Silk"
   },
   {
@@ -68,6 +72,7 @@
     "color": "Blue",
     "material": "Cotton",
     "price": 140,
+    "newCollection": true,
     "image": "https://via.placeholder.com/300x400?text=Navy+Maxi+Cotton"
   },
   {
@@ -78,6 +83,7 @@
     "color": "Red",
     "material": "Polyester",
     "price": 75,
+    "newCollection": true,
     "image": "https://via.placeholder.com/300x400?text=Red+Mini+Polyester"
   },
   {
@@ -158,6 +164,7 @@
     "color": "Red",
     "material": "Polyester",
     "price": 140,
+    "newCollection": true,
     "image": "https://via.placeholder.com/300x400?text=Red+Maxi+Polyester"
   },
   {

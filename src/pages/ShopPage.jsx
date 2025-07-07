@@ -19,6 +19,9 @@ export default function ShopPage() {
 
   const [filteredProducts, setFilteredProducts] = useState([]);
 
+  // State for showing toast message
+  const [showToast, setShowToast] = useState(false);
+
   useEffect(() => {
     const result = productsData.filter((product) => {
       if (filters.type && product.type !== filters.type) return false;
@@ -40,36 +43,49 @@ export default function ShopPage() {
 
   const handleAddToCart = (product) => {
     addToCart(product);
-    alert("Product added to cart!");
+    setShowToast(true);
+
+    // Hide toast after 2 seconds
+    setTimeout(() => {
+      setShowToast(false);
+    }, 2000);
   };
 
   return (
-  <main className="shop-container">
-    {/* Progress bar at top, full width */}
-    <ProgressBar currentStep={1} />
+    <main className="shop-container">
+      {/* Progress bar at top, full width */}
+      
+      <ProgressBar currentStep={1} />
 
-    {/* Sidebar and product list side by side */}
-    <div className="shop-content">
-      <FilterSidebar filters={filters} onChange={handleFilterChange} />
-      <section className="products">
-        {filteredProducts.length > 0 && (
-          <>
-            <ProductCard
-              product={filteredProducts[0]}
-              onAddToCart={handleAddToCart}
-              promo
-            />
-            {filteredProducts.slice(1).map((product) => (
+      {/* Toast message */}
+      {showToast && (
+        <div className="toast-message">
+          Product added to cart!
+        </div>
+      )}
+
+      {/* Sidebar and product list side by side */}
+      <div className="shop-content">
+        <FilterSidebar filters={filters} onChange={handleFilterChange} />
+        <section className="products">
+          {filteredProducts.length > 0 && (
+            <>
               <ProductCard
-                key={product.id}
-                product={product}
+                product={filteredProducts[0]}
                 onAddToCart={handleAddToCart}
+                promo
               />
-            ))}
-          </>
-        )}
-      </section>
-    </div>
-  </main>
-);
+              {filteredProducts.slice(1).map((product) => (
+                <ProductCard
+                  key={product.id}
+                  product={product}
+                  onAddToCart={handleAddToCart}
+                />
+              ))}
+            </>
+          )}
+        </section>
+      </div>
+    </main>
+  );
 }

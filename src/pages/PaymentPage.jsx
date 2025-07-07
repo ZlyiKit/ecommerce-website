@@ -17,28 +17,27 @@ export default function PaymentPage() {
   };
 
   if (orderNumber) {
-  return (
-    <>
-      <ProgressBar currentStep={3} />
-      <div className="confirmation-container">
-        <div className="confirmation">
-          <h2>Thank you for your purchase!</h2>
-          <p>
-            Your order number is <strong>#{orderNumber}</strong>
-          </p>
-          <p>A confirmation email will be sent shortly.</p>
-          <button
+    return (
+      <>
+        <ProgressBar currentStep={3} />
+        <div className="confirmation-container">
+          <div className="confirmation">
+            <h2>Thank you for your purchase!</h2>
+            <p>
+              Your order number is <strong>#{orderNumber}</strong>
+            </p>
+            <p>A confirmation email will be sent shortly.</p>
+            <button
               className="survey-button"
               onClick={() => navigate("/survey")}
             >
               Complete the Survey
             </button>
+          </div>
         </div>
-      </div>
-    </>
-  );
-}
-
+      </>
+    );
+  }
 
   return (
     <>
@@ -63,7 +62,12 @@ export default function PaymentPage() {
               name="cardNumber"
               placeholder="1234567812345678"
               required
+              maxLength={16}
+              inputMode="numeric"
               pattern="\d{16}"
+              onInput={(e) => {
+                e.target.value = e.target.value.replace(/\D/g, "").slice(0, 16);
+              }}
             />
           </label>
 
@@ -74,7 +78,12 @@ export default function PaymentPage() {
               name="cvv"
               placeholder="123"
               required
+              maxLength={3}
+              inputMode="numeric"
               pattern="\d{3}"
+              onInput={(e) => {
+                e.target.value = e.target.value.replace(/\D/g, "").slice(0, 3);
+              }}
             />
           </label>
 

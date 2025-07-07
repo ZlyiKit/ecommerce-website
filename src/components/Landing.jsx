@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../styles/Landing.css";
+import { useNavigate } from "react-router-dom";
 
 const slides = [
   {
@@ -22,6 +23,7 @@ const slides = [
 ];
 
 export default function Landing() {
+  const navigate = useNavigate();
   return (
     <>
       <section id="landing" className="landing-section">
@@ -47,10 +49,9 @@ export default function Landing() {
           “Elegance is the only beauty that never fades.”
           <span>— Audrey Hepburn</span>
         </blockquote>
-         <button className="shop-now-button" onClick={() => window.location.href = process.env.PUBLIC_URL + '/shop'}
->
-    Shop Now
-  </button>
+         <button className="shop-now-button" onClick={() => navigate('/shop')}>
+      Shop Now
+    </button>
       </div>
     </>
   );

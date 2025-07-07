@@ -9,7 +9,13 @@ export default function CartPage() {
   const { cartItems } = useCart();
   const navigate = useNavigate(); // 👈 init
 
-  const total = cartItems.reduce((sum, item) => sum + item.price, 0);
+  const total = cartItems.reduce((sum, item) => {
+  const salePercent = item.sale ? Number(item.sale.replace('%', '')) : 0;
+  const priceAfterDiscount = salePercent > 0
+    ? item.price * (1 - salePercent / 100)
+    : item.price;
+  return sum + priceAfterDiscount;
+}, 0);
 
   const handleProceedToPayment = () => {
     navigate("/payment"); // 👈 go to new page

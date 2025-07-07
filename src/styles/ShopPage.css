@@ -46,3 +46,29 @@
   height: 100%;
   object-fit: cover;
 }
+
+.toast-message {
+  position: fixed;
+  top: 60px; /* adjust based on your nav bar height */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #7d7262;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-weight: 600;
+  z-index: 9999;
+  opacity: 0.9;
+  animation: fadeInOut 2s forwards;
+  max-width: 300px;
+  text-align: center;
+}
+
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 0.9; transform: translateY(0); }
+  90% { opacity: 0.9; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
